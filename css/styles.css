@@ -1,6 +1,6 @@
 :root {
     --branding-color: #29cdb5;;
-    --light-branding-color: #9bf4d5;
+    --light-branding-color: #E7FFFA;
     --dark-color: #373331;
   }
 
@@ -44,7 +44,7 @@
 
 body {
     font-family: Helvetica, sans-serif;
-    padding: 70px;
+    color: var(--dark-color);
     background: radial-gradient(circle at 10% 20%, rgba(237, 248, 243, 0.46) 0.1%, rgba(241, 235, 235, 0.28) 90.1%);
 }
 
@@ -62,6 +62,12 @@ h1 {
 h1:hover {
     animation: text-hover 2s 1;  
 }
+
+.head {
+    padding: 70px;
+    background-color: var(--light-branding-color);
+}
+
 
 .name {
     animation: text 2s 1;  
@@ -97,6 +103,17 @@ h1:hover {
       padding: 15px 0;
       border-radius: 4px;
   }
+
+  .fab {
+      font-size: 32px;
+      color: var(--branding-color);
+      margin: 8px;
+  }
+
+  .fab:hover {
+      color: var(--dark-color);
+    font-size: 34px;
+}
 
   @keyframes text {
       0%{
