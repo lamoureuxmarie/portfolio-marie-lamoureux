@@ -71,7 +71,13 @@ h3 {
     color: var(--dark-color) !important;
 }
 
+.navbar-brand {
+    font-family: 'Vidaloka', serif;
+}
 
+.active {
+    color: var(--branding-color) !important;
+}
 
 .head {
     padding: 70px;
