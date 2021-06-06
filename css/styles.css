@@ -9,6 +9,7 @@
           font-size: 48px;
       }
 
+
     .project-links {   
             display: block;
             text-align: center;
@@ -64,6 +65,10 @@ h1:hover {
 h3 {
     font-size: 36px;
     font-family: 'Vidaloka', serif;
+}
+
+p {
+    line-height: 25px;
 }
 
 .navbar-custom {
@@ -122,15 +127,9 @@ h3 {
     justify-content: center;
   }
 
-
-  .section-name {
-      font-size: 24px;
-      color: var(--dark-color);
-      border: 2px solid var(--dark-color);
-      padding: 15px 0;
-      border-radius: 4px;
-  }
- 
+ .section {
+     padding-top: 50px;
+ }
 
   .fab {
       font-size: 32px;
