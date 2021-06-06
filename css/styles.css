@@ -1,6 +1,8 @@
 :root {
-    --branding-color: #29cdb5;;
-    --light-branding-color: #E7FFFA;
+    --branding-color: #E78A68;
+    --light-branding-color: #fcede4;
+    --contrast-color: #41AFF2;
+    --light-color: #FAF6F7;
     --dark-color: #373331;
   }
 
@@ -14,6 +16,15 @@
             display: block;
             text-align: center;
             margin: 10px 20px;
+    }
+    .empty {
+        display: none;
+    }
+
+    .icon {
+        display: flex;
+        max-width: 20%;
+    
     }
   }
 
@@ -49,7 +60,7 @@ body {
     padding-top: 50px;
     font-family: Helvetica, sans-serif;
     color: var(--dark-color);
-    background: radial-gradient(circle at 10% 20%, rgba(237, 248, 243, 0.46) 0.1%, rgba(241, 235, 235, 0.28) 90.1%);
+    background: radial-gradient(circle at 10% 20%, #FAF6F7 0.1%, #F8EDEB 90.1%);
 }
 
 h1 {
@@ -72,7 +83,7 @@ p {
 }
 
 .navbar-custom {
-    background-color: var(--light-branding-color) !important;
+    background-color: #F9F2F2 !important;
     color: var(--dark-color) !important;
 }
 
@@ -87,12 +98,14 @@ p {
 .head {
     padding: 70px;
     background-color: var(--light-branding-color);
+    background-image: url(/images/background-image-1.jpg);
 }
 
 
 .name {
     animation: text 2s 1;  
 }
+
 
 .button-primary {
     padding: 15px 25px;
@@ -103,7 +116,7 @@ p {
 
 .button-primary:hover {
     text-decoration: none;
-    background-color: #22b6a0;
+    background-color: #e47952;
     transition: ease-in-out 4ms;
     color: white;
 }
@@ -138,7 +151,7 @@ p {
   }
 
   .fab:hover {
-      color: #22b6a0;;
+      color: #e47952;
     font-size: 34px;
 }
 
