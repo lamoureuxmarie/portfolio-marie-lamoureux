@@ -158,6 +158,34 @@ p {
     font-size: 34px;
 }
 
+.image___overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: var(--dark-color);
+    background-color: rgba(252, 225, 207, 0.7);
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius: 4px;
+}
+
+.image__description {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image___overlay:hover {
+    opacity: 1;
+    backdrop-filter: blur(8px);
+}
+
+
   @keyframes text {
       0%{
           letter-spacing: 2px;
