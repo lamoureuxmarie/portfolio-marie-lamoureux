@@ -66,6 +66,12 @@ body {
     background: radial-gradient(circle at 10% 20%, #FAF6F7 0.1%, #F8EDEB 90.1%);
 }
 
+header {
+    padding: 70px;
+    background-color: var(--light-branding-color);
+    background-image: url(/images/background-image-1.jpg);
+}
+
 h1 {
     font-size: 96px;
     font-weight: 600;
@@ -96,12 +102,6 @@ p {
 
 .active {
     color: var(--branding-color) !important;
-}
-
-.head {
-    padding: 70px;
-    background-color: var(--light-branding-color);
-    background-image: url(/images/background-image-1.jpg);
 }
 
 
@@ -166,7 +166,7 @@ p {
     height: 100%;
     text-align: center;
     color: var(--dark-color);
-    background-color: rgba(252, 225, 207, 0.7);
+    background-color: rgba(249, 244, 244, 0.7);
     opacity: 0;
     transition: opacity 0.25s;
     border-radius: 4px;
