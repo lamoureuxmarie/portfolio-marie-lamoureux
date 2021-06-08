@@ -26,6 +26,9 @@
         max-width: 20%;
     
     }
+    .language-level {
+        display: none;
+    }
   }
 
   @media (max-width: 320px) {
