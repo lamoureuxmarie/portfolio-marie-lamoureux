@@ -195,6 +195,11 @@ p {
     backdrop-filter: blur(8px);
 }
 
+.coder {
+    font-family: 'Vidaloka', serif;
+    font-size: 24px;
+}
+
 
   @keyframes text {
       0%{
