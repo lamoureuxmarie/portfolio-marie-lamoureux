@@ -26,7 +26,7 @@
   }
 
   @media (max-width: 576px) {
-      .name {
+      .title {
           font-size: 48px;
       }
 
@@ -49,6 +49,8 @@
         display: none;
     }
   }
+
+
 
   @media (max-width: 320px) {
       h2{
@@ -128,6 +130,10 @@ p {
     animation: text 2s 1;  
 }
 
+.intro-text {
+    font-size: 24px;
+}
+
 
 .button-primary {
     padding: 15px 25px;
@@ -152,7 +158,7 @@ p {
 
 .button-secondary:hover {
     text-decoration: none;
-    background-color: var(--light-branding-color);
+    background-color: white;
     transition: ease-in-out 4ms;
     color: var(--branding-color);
 }
@@ -202,12 +208,26 @@ p {
 .image___overlay:hover {
     opacity: 1;
     backdrop-filter: blur(8px);
+
 }
 
-.coder {
-    font-family: 'Vidaloka', serif;
-    font-size: 24px;
+.footer {
+    font-size: 12px;
 }
+
+
+.open-source {
+    color: var(--branding-color);
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.open-source:hover {
+    text-decoration: none;
+    color: #e47952;
+}
+
 
 
   @keyframes text {
