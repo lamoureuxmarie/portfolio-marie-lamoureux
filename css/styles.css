@@ -83,14 +83,28 @@ body {
     padding-top: 50px;
     font-family: Helvetica, sans-serif;
     color: var(--dark-color);
-    background: linear-gradient(-45deg,#f3f4fd,#a5b3ff73,#2949ff60);
+    background: linear-gradient(-45deg,#f4f5fc,#c4cdffc0,#2949ff8a);
     background-size: 400% 400%;
     animation: change 10s ease-in-out infinite;
 }
 
 header {
     padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.glass {
+    padding: 50px;
+    background: var(--light-color);
+    width: 100%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1));
+    border-radius: 10px;
+    z-index: 2;
+    backdrop-filter: 32px;
+}
+
 
 h1 {
     font-size: 84px;
@@ -122,7 +136,6 @@ p {
 .active {
     color: var(--light-branding-color) !important;
 }
-
 
 .intro-text {
     font-size: 36px;
