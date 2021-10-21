@@ -1,9 +1,10 @@
 :root {
-    --branding-color: #E78A68;
-    --light-branding-color: #fcede4;
-    --contrast-color: #41AFF2;
-    --light-color: #FAF6F7;
-    --dark-color: #373331;
+    --branding-color: #396afc;
+    --dark-branding-color: #2948ff;
+    --light-branding-color: #8ea9fc;
+    --contrast-color: #e0665d;
+    --light-color: #faf6f6;
+    --dark-color: #313537;
   }
 
   @media (min-width:577px) and (max-width: 991px){
@@ -82,19 +83,18 @@ body {
     padding-top: 50px;
     font-family: Helvetica, sans-serif;
     color: var(--dark-color);
-    background: radial-gradient(circle at top left,rgba(253, 247, 247, 1) 50%,rgba(255,227,208,0.3) 100%)
+    background: linear-gradient(-45deg,#f3f4fd,#a5b3ff73,#2949ff60);
+    background-size: 400% 400%;
+    animation: change 10s ease-in-out infinite;
 }
 
 header {
     padding: 70px;
-    background-color: var(--light-branding-color);
-    background-image: radial-gradient(circle at top left,rgba(253, 247, 247, 0.8) 50%,rgba(255,227,208,0.3) 100%), url(/images/background-image-1.jpg);
 }
 
 h1 {
-    font-size: 96px;
-    font-weight: 600;
-    font-family: 'Vidaloka', serif;
+    font-size: 84px;
+    font-weight: 700;
 }
 
 h1:hover {
@@ -103,7 +103,6 @@ h1:hover {
 
 h3 {
     font-size: 36px;
-    font-family: 'Vidaloka', serif;
 }
 
 p {
@@ -111,25 +110,22 @@ p {
 }
 
 .navbar-custom {
-    background-color: #F9F2F2 !important;
-    color: var(--dark-color) !important;
+    background-color: var(--branding-color) !important;
+    color: var(--light-color) !important;
 }
 
 .navbar-brand {
-    font-family: 'Vidaloka', serif;
+    font-family: Helvetica, sans-serif;
+    color: var(--light-color) !important;
 }
 
 .active {
-    color: var(--branding-color) !important;
+    color: var(--light-branding-color) !important;
 }
 
-
-.name {
-    animation: text 2s 1;  
-}
 
 .intro-text {
-    font-size: 24px;
+    font-size: 36px;
 }
 
 
@@ -142,9 +138,9 @@ p {
 
 .button-primary:hover {
     text-decoration: none;
-    background-color: #e47952;
+    background-color: var(--dark-branding-color);
     transition: ease-in-out 4ms;
-    color: white;
+    color: var(--light-color);
 }
 
 .button-secondary {
@@ -177,8 +173,9 @@ p {
   }
 
   .fab:hover {
-      color: #e47952;
+    color: var(--dark-branding-color);
     font-size: 34px;
+    text-decoration: none;
 }
 
 .image___overlay {
@@ -223,33 +220,19 @@ p {
 
 .open-source:hover {
     text-decoration: none;
-    color: #e47952;
+    color: var(--dark-branding-color);
 }
 
 
 
-  @keyframes text {
+  @keyframes change {
       0%{
-          letter-spacing: 2px;
+        background-position: 0 50%;
       }
-      30%{
-        letter-spacing: 4px;
+      50%{
+        background-position: 100% 50%;
     }
-    50%{
-        letter-spacing: 0px;
+    100%{
+        background-position: 0 50%;
     }
-      
   }
-
-  @keyframes text-hover {
-    0%{
-        letter-spacing: 2px;
-    }
-    30%{
-      letter-spacing: 4px;
-  }
-  50%{
-      letter-spacing: 0px;
-  }
-    
-}
