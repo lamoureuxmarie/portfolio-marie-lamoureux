@@ -90,9 +90,6 @@ body {
 
 header {
     padding: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .glass {
@@ -107,12 +104,8 @@ header {
 
 
 h1 {
-    font-size: 84px;
+    font-size: 72px;
     font-weight: 700;
-}
-
-h1:hover {
-    animation: text-hover 2s 1;  
 }
 
 h3 {
@@ -128,10 +121,11 @@ p {
     color: var(--light-color) !important;
 }
 
-.navbar-brand {
+.navbar-brand, .navbar-nav, .nav-item {
     font-family: Helvetica, sans-serif;
     color: var(--light-color) !important;
 }
+
 
 .active {
     color: var(--light-branding-color) !important;
