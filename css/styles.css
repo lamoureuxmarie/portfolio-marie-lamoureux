@@ -32,6 +32,7 @@
         display: flex;
         text-align: center;
     }
+   
   }
 
   @media (max-width: 576px) {
@@ -89,7 +90,7 @@ body {
     padding-top: 50px;
     font-family: Helvetica, sans-serif;
     color: var(--dark-color);
-    background: radial-gradient(circle at 12.3% 19.3%, rgb(72, 120, 253) 0%, rgb(95, 209, 249) 100.2%);
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(75, 122, 250) 0%, rgb(95, 209, 249) 100.2%);
     background-size: 400% 400%;
 }
 
@@ -241,7 +242,7 @@ p {
 
   .fab {
       font-size: 32px;
-      color: var(--light-color);
+      color: var(--dark-branding-color);
       margin: 8px;
   }
 
@@ -283,7 +284,7 @@ p {
 
 
 .open-source {
-    color: var(--dark-color);
+    color: var(--dark-branding-color);
     font-family: monospace;
     font-size: 14px;
     font-weight: 600;
