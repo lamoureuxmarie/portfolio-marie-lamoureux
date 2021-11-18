@@ -1,7 +1,6 @@
 :root {
     --branding-color: #396afc;
     --dark-branding-color: #2948ff;
-    --light-branding-color: #8ea9fc;
     --contrast-color: #e0665d;
     --light-color: #faf6f6;
     --dark-color: #313537;
@@ -90,7 +89,7 @@ body {
     padding-top: 50px;
     font-family: Helvetica, sans-serif;
     color: var(--dark-color);
-    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(72, 120, 253) 0%, rgb(95, 209, 249) 100.2%);
     background-size: 400% 400%;
 }
 
@@ -220,8 +219,8 @@ p {
 .button-secondary {
     padding: 15px 25px;
     border-radius: 4px;
-    color: var(--branding-color);
-    border: solid 1px var(--branding-color);
+    color: var(--light-color);
+    border: solid 1px var(--light-color);
 }
 
 .button-secondary:hover {
@@ -242,12 +241,11 @@ p {
 
   .fab {
       font-size: 32px;
-      color: var(--branding-color);
+      color: var(--light-color);
       margin: 8px;
   }
 
   .fab:hover {
-    color: var(--dark-branding-color);
     text-decoration: none;
 }
 
@@ -285,7 +283,7 @@ p {
 
 
 .open-source {
-    color: var(--branding-color);
+    color: var(--dark-color);
     font-family: monospace;
     font-size: 14px;
     font-weight: 600;
@@ -293,7 +291,6 @@ p {
 
 .open-source:hover {
     text-decoration: none;
-    color: var(--dark-branding-color);
 }
 
 
