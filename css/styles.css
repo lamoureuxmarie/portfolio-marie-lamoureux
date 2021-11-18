@@ -52,13 +52,16 @@
 
 
   @media (max-width: 320px) {
+
+
       h2{
-          font-size: 20px;
+          font-size: 16px;
       }
     
     .name {
-        font-size: 36px;
+        font-size: 20px;
     }
+
     p {
         font-size: 14px;
     }
@@ -83,9 +86,8 @@ body {
     padding-top: 50px;
     font-family: Helvetica, sans-serif;
     color: var(--dark-color);
-    background: linear-gradient(-45deg,#f4f5fc,#c4cdffc0,#2949ff8a);
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
     background-size: 400% 400%;
-    animation: change 10s ease-in-out infinite;
 }
 
 header {
@@ -100,7 +102,6 @@ header {
     border-radius: 10px;
     z-index: 2;
     backdrop-filter: blur(32px);
-    box-shadow: 0 3px 10px rgb(255 255 255 / 0.2);
 }
 
 .box-area li {
@@ -108,7 +109,8 @@ header {
 	display: block;
 	list-style: none;
 	width: 25px;
-	height: 25px;
+    height: 25px;
+    border-radius: 4px;
 	background: rgba(255, 255, 255, 0.2);
 	animation: animate 20s linear infinite;
 	bottom: -250px;
