@@ -106,7 +106,7 @@ body {
 }
 
 .about-section {
-    background-color: #bab5ad;
+    background-color: #fdfdfc;
     padding-bottom: 30px;
 }
 
@@ -120,7 +120,7 @@ body {
 }
 
 .work-section {
-    background-color: #fdfdfc;
+    background-color: #bab5ad;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -131,6 +131,26 @@ body {
 
 .para3 {
     background-image: url(/images/background/mitchell-luo-Aw8gYKOMuS4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+}
+
+.formation-section {
+    background-color: #bab5ad;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.formation-section img {
+    max-width: 80%;
+    margin: 50px;
+}
+
+.para4 {
+    background-image: url(/images/background/bruno-emmanuelle-4pxBik5ewx0-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
