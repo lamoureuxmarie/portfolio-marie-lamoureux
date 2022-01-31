@@ -1,18 +1,11 @@
 :root {
-    --branding-color: #bb272f;
+    --branding-color: #FF3300;
     --dark-branding-color: #bb272f;
     --contrast-color: #bab5ad;
     --light-color: #faf6f6;
     --dark-color: #131311;
   }
 
-  @media (min-width:577px) {
-
-    .first-name {
-        display: none;
-      }
-    
-  }
 
   @media (min-width:577px) and (max-width: 991px){
 
@@ -40,14 +33,6 @@
     h2{
         font-size: 18px;
     }
-  
-  .full-name {
-    display: none;
-  }
-
-  .first-name {
-    font-size: 48px;
-}
 
   p {
       font-size: 14px;
@@ -85,11 +70,39 @@
 }
 
 body {
-    padding-top: 50px;
+    padding-top: 90px;
     font-family: Helvetica, sans-serif;
     color: var(--dark-color);
     
 }
+
+.logo {
+    max-width: 350px;
+}
+
+.container-fluid {
+    padding: 35px 0px!important;
+}
+
+.navbar-custom {
+    background-color: var(--branding-color) !important;
+    color: var(--light-color) !important;
+}
+
+.nav-item {
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    margin-left: 60px;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    color: var(--light-color) !important;
+}
+
+
+.active {
+    color: var(--light-branding-color) !important;
+}
+
 
 .home-section {
     background-color: #fdfdfc;
@@ -182,22 +195,9 @@ h3 {
 }
 
 p {
+    font-family: 'Cormorant Garamond', serif;
     line-height: 25px;
-}
-
-.navbar-custom {
-    background-color: var(--branding-color) !important;
-    color: var(--light-color) !important;
-}
-
-.navbar-brand, .navbar-nav, .nav-item {
-    font-family: Helvetica, sans-serif;
-    color: var(--light-color) !important;
-}
-
-
-.active {
-    color: var(--light-branding-color) !important;
+    font-size: 20px;
 }
 
 .intro-text {
