@@ -1,6 +1,6 @@
 :root {
     --branding-color: #FF3300;
-    --dark-branding-color: #bb272f;
+    --dark-branding-color: #e63509;
     --contrast-color: #bab5ad;
     --light-color: #faf6f6;
     --dark-color: #131311;
@@ -77,30 +77,36 @@ body {
 }
 
 .logo {
-    max-width: 350px;
+    max-width: 380px;
 }
 
 .container-fluid {
-    padding: 35px 0px!important;
+    padding: 25px 0px!important;
 }
 
 .navbar-custom {
-    background-color: var(--branding-color) !important;
-    color: var(--light-color) !important;
+    background-color: #bab5ad !important;
+    color: var(--dark-color) !important;
 }
 
 .nav-item {
     font-size: 20px;
     letter-spacing: 0.1em;
+    margin-top: 15px;
     margin-left: 60px;
     text-transform: uppercase;
     font-family: Helvetica, sans-serif;
-    color: var(--light-color) !important;
+    color: var(--dark-color) !important;
 }
+
+.nav-item:hover {
+    transition: all 0.4s ease-in-out;
+    transform: scaleY(-1);
+  }
 
 
 .active {
-    color: var(--light-branding-color) !important;
+    color: var(--branding-color) !important;
 }
 
 
