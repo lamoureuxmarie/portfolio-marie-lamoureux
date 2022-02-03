@@ -7,67 +7,16 @@
   }
 
 
-  @media (min-width:577px) and (max-width: 991px){
-
+  @media screen and (max-width: 768px){
     
-    .image___overlay {
-        display: flex;
-    }
-    .image__description {
-        display: none !important;
-    }
-    .icons {
-        display: flex;
-        flex-direction: column;
-        width: 200%;
-    }
-    a {
-        display: flex;
-        text-align: center;
-    }
-   
-  }
-
-  @media (max-width: 576px) {
-     
-    h2{
-        font-size: 18px;
+    .featured-work img, .featured-work a {
+        margin: 20px auto;
     }
 
-  p {
-      font-size: 14px;
-  }
+
+ }
 
 
-    .project-links {   
-            display: block;
-            text-align: center;
-            margin: 10px 20px;
-    }
-    .empty {
-        display: none;
-    }
-
-    .icon {
-        display: flex;
-    }
-  
-  }
-
-
-@media (width: 1024px) {
-    h2{
-        font-size: 24px;
-    }
-    a {
-        display: flex;
-        text-align: center;
-        font-size: 12px;
-    }
-  .name {
-      font-size: 36px;
-  }
-}
 
 body {
     padding-top: 90px;
@@ -147,6 +96,12 @@ body {
 .featured-work {
     padding: 70px;
 }
+
+.featured-work img {
+    width: 100%;
+    border-radius: 4px;
+}
+
 
 .para3 {
     background-image: url(/images/background/mitchell-luo-Aw8gYKOMuS4-unsplash.jpg);
