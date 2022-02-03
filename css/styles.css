@@ -21,19 +21,17 @@
 
  }
 
-@media screen and (min-width: 768px) and (max-width: 1071px) {
-    
-    
-    .featured-work a {
-        font-size: 12px;
+ @media screen and (max-width: 985px){
+
+    .logo {
+        width: 280px;
     }
 
 }
 
 
-
 body {
-    padding-top: 90px;
+    padding-top: 120px;
     font-family: Helvetica, sans-serif;
     color: var(--dark-color);
     
@@ -119,6 +117,12 @@ body {
     border-radius: 4px;
 }
 
+.flex-container .item {
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+
 
 .para3 {
     background-image: url(/images/background/mitchell-luo-Aw8gYKOMuS4-unsplash.jpg);
@@ -135,10 +139,6 @@ body {
     padding-bottom: 30px;
 }
 
-.formation-section img {
-    max-width: 80%;
-    margin: 50px;
-}
 
 .para4 {
     background-image: url(/images/background/bruno-emmanuelle-4pxBik5ewx0-unsplash.jpg);
