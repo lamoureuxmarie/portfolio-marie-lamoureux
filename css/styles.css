@@ -129,6 +129,31 @@ body {
 }
 /*End animation header text*/
 
+/*Start styles sections title*/
+
+.section-title {
+    position: relative;
+    top: -110px;
+    font-family: Helvetica, sans-serif;
+    font-size: 150px;
+    text-transform: lowercase;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 3px #fff;
+}
+
+.work-section-title {
+    text-align: end;
+    right: 25px;
+}
+
+.certif-section-title {
+    left: 25px;
+}
+
+/*End styles sections title*/
+
 
 .home-section {
     background-color: #fdfdfc;
@@ -243,19 +268,8 @@ h1 {
     text-transform: uppercase;
 }
 
-
-h3 {
-    padding: 20px;
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-weight: 700;
-}
-
 p {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cormorant', serif;
     line-height: 25px;
     font-size: 20px;
 }
