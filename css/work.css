@@ -1,0 +1,37 @@
+.work-header {
+    background-image: url(/images/background/bruno-emmanuelle-4pxBik5ewx0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    height: 800px;
+}
+
+.work-section-title {
+    top: 180px !important;
+}
+
+.projects .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects img {
+    max-width: 400px !important;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 1000px){
+     
+    
+    .projects .row {
+       flex-direction: column !important;
+       text-align: center;
+    }
+
+    .flex-container img, .flex-container a {
+        margin: 20px auto;
+    }
+
+
+ }
