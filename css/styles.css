@@ -55,18 +55,17 @@ body {
 }
 
 .nav-item {
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 0.1em;
     margin-top: 15px;
     margin-left: 60px;
     text-transform: uppercase;
     font-family: Helvetica, sans-serif;
     color: var(--dark-color) !important;
+    transition: transform 1000ms ease;
 }
 
 .nav-item:hover {
-    transition-duration: 1000ms;
-    transition-property: transform;
     transform: scaleY(-1);
   }
 
