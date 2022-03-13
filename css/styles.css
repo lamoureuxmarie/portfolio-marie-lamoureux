@@ -142,9 +142,13 @@ body {
     -webkit-text-stroke: 3px #fff;
 }
 
-.work-section-title {
+.work-section-title, .skills-section-title {
     text-align: end;
     right: 25px;
+}
+
+.skills-section-title {
+    top: 0;
 }
 
 .certif-section-title {
@@ -244,6 +248,23 @@ body {
     transition: 0.2s ease-in-out;
     filter: none;
 }
+
+/*Start styles skills list*/
+
+.skills-list {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skills-list li {
+    list-style: none;
+    font-size: 80px;
+    color: #fdfdfc;
+}
+
+/*End styles skills list*/
 
 
 .para4 {
