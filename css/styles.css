@@ -31,13 +31,20 @@
 
 
 body {
-    padding-top: 120px;
     font-family: Helvetica, sans-serif;
     color: var(--dark-color);
     
 }
 
 /* Start styling navbar on scroll */
+
+.logo {
+    max-width: 380px;
+}
+
+.container-fluid {
+    padding: 25px 0px!important;
+}
 
 .navbar-custom {
     background-color: transparent !important;
@@ -58,7 +65,8 @@ body {
 }
 
 .nav-item:hover {
-    transition: all 0.4s ease-in-out;
+    transition-duration: 1000ms;
+    transition-property: transform;
     transform: scaleY(-1);
   }
 
@@ -74,18 +82,58 @@ body {
 }
 /* End styling navbar on scroll */
 
-.logo {
-    max-width: 380px;
+/*Start animation header text*/
+
+.dynamic-text {
+    overflow: hidden;
+    height: 90px;
+    line-height: 90px;
 }
 
-.container-fluid {
-    padding: 25px 0px!important;
+.dynamic-text li {
+    color: var(--branding-color);
+    text-align: center;
+    font-size: 78px;
+    list-style: none;
+    position: relative;
+    top: 0;
+    animation: slide 8s steps(4) infinite;
 }
+
+@keyframes slide {
+    100%{
+        top: -360px;
+    }
+}
+
+.dynamic-text li span {
+    position: relative;
+}
+
+.dynamic-text li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fdfdfc;
+    border-left: 3px solid var(--branding-color);
+    animation: typing 2s steps(10) infinite;
+}
+
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+/*End animation header text*/
 
 
 .home-section {
     background-color: #fdfdfc;
-    padding-bottom: 30px;
+    height: 800px;
+    padding-top: 120px;
 }
 
 .para1 {
