@@ -37,17 +37,14 @@ body {
     
 }
 
-.logo {
-    max-width: 380px;
-}
-
-.container-fluid {
-    padding: 25px 0px!important;
-}
+/* Start styling navbar on scroll */
 
 .navbar-custom {
-    background-color: #bab5ad !important;
+    background-color: transparent !important;
     color: var(--dark-color) !important;
+    border-bottom: 2px solid rgba(255,255,255,.05);
+    transition: height .5s ease;
+    transition: background-color .5s ease;
 }
 
 .nav-item {
@@ -68,6 +65,21 @@ body {
 
 .active {
     color: var(--branding-color) !important;
+}
+
+.scrolling-active{
+    background-color: #bab5ad !important;
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+    height: 7rem;
+}
+/* End styling navbar on scroll */
+
+.logo {
+    max-width: 380px;
+}
+
+.container-fluid {
+    padding: 25px 0px!important;
 }
 
 
