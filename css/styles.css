@@ -97,6 +97,10 @@ body {
 
 /*Start styles header text*/
 
+.dynamic-text {
+    text-align: center;
+}
+
 .typing, .typed-cursor {
     color: var(--branding-color);
     font-size: 70px;
