@@ -35,6 +35,12 @@
         width: 220px;
     }
 
+    .section-title {
+        top: -70px !important;
+        font-size: 60px !important;
+        -webkit-text-stroke: 2px #fff !important;
+    }
+
 }
 
 
