@@ -8,7 +8,7 @@
 
 
 
- @media screen and (max-width: 985px){
+ @media screen and (max-width: 991px){
 
     .logo {
         width: 220px;
@@ -18,6 +18,17 @@
         top: -70px !important;
         font-size: 60px !important;
         -webkit-text-stroke: 2px #fff !important;
+    }
+
+    .collapse {
+        background-color: #fdfdfc;
+        border: 1px solid #bab5ad;
+        padding-bottom: 15px;
+        border-radius: 4px;
+    }
+
+    .navbar-toggler-icon {
+        width: 1rem;
     }
 
 }
@@ -34,10 +45,9 @@
         margin: 20px auto;
     }
 
-
  }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
     .typing, .typed-cursor {
         font-size: 30px !important;
@@ -52,9 +62,9 @@
         -webkit-text-stroke: 1px #fff !important;
         top: -50px !important;
     }
-    
 
  }
+
 
 
 html, body {
@@ -66,12 +76,6 @@ html, body {
 }
 
 /* Start styling navbar */
-.collapse {
-    background-color: #fdfdfc;
-    border: 1px solid #bab5ad;
-    padding-bottom: 15px;
-    border-radius: 4px;
-}
 
 
 .logo {
