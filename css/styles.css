@@ -66,6 +66,13 @@ html, body {
 }
 
 /* Start styling navbar */
+.collapse {
+    background-color: #fdfdfc;
+    border: 1px solid #bab5ad;
+    padding-bottom: 15px;
+    border-radius: 4px;
+}
+
 
 .logo {
     max-width: 380px;
