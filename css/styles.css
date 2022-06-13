@@ -67,6 +67,19 @@ html, body {
 }
 /* End styling navbar */
 
+#badge-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#badge {
+    position: relative;
+    top: -30px;
+    max-width: 420px;
+}
+
 /*Start styles header text*/
 
 .dynamic-text {
