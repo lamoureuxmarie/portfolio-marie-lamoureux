@@ -261,6 +261,22 @@ p {
     font-size: 36px;
 }
 
+/*Start buttons*/
+
+.button-no-bg {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 25px;
+    color: var(--branding-color);
+}
+
+.button-no-bg:hover {
+    text-decoration: none;
+    transition: ease-in-out 4ms;
+    color: var(--dark-branding-color);
+    cursor: pointer;
+}
+
 
 .button-primary {
     padding: 15px 25px;
@@ -290,10 +306,12 @@ p {
     color: var(--branding-color);
 }
 
-.contact-link {
+.centered-button {
     display: flex;
     justify-content: center;
   }
+
+  /*Start buttons*/
 
  .section {
      padding-top: 50px;
