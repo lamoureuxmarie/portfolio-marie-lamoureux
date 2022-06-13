@@ -1,0 +1,35 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 5041967, 2022-06-12T11:44:39-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Bolkit by Khaiuns
+ * URL: https://www.myfonts.com/fonts/khaiuns/bolkit/regular/
+ * 
+ * Webfont: Bolkit-Rayek by Khaiuns
+ * URL: https://www.myfonts.com/fonts/khaiuns/bolkit/rayek/
+ * 
+ * 
+ * Webfonts copyright: Copyright © 2021 by Zelow Type.
+ * 
+ * © 2022 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/4cef2f");
+  
+@font-face {
+  font-family: "Bolkit-Rayek";
+  src: url('webFonts/BolkitRayek/font.woff2') format('woff2'), url('webFonts/BolkitRayek/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Bolkit";
+  src: url('webFonts/Bolkit/font.woff2') format('woff2'), url('webFonts/Bolkit/font.woff') format('woff');
+}
+
