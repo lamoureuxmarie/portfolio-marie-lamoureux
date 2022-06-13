@@ -95,6 +95,10 @@ html, body {
     color: rgb(253, 253, 253);
 }
 
+.section-subtitle {
+    margin-top: 50px;
+    text-align: center;
+}
 
 /*End styles sections title*/
 
