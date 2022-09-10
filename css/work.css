@@ -22,8 +22,8 @@
 }
 
 @media screen and (max-width: 1000px){
-     
-    
+
+
     .projects .row {
        flex-direction: column !important;
        text-align: center;
