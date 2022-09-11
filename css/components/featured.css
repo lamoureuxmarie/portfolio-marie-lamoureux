@@ -1,4 +1,9 @@
 .featured-project {
   border-radius: 5px;
   width: 100%;
+  object-fit: cover;
+}
+
+.featured-link {
+  border-radius: 5px;
 }
