@@ -1,0 +1,8 @@
+.resume {
+  flex-direction: column;
+}
+
+.resume img {
+  width: 60%;
+  border-radius: 5px;
+}

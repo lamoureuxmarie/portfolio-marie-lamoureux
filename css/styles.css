@@ -1,5 +1,7 @@
 @import url(./components/featured.css);
 @import url(./components/header.css);
+@import url(./components/navbar.css);
+@import url(./experience.css);
 
 :root {
     --branding-color: #FF3300;
@@ -43,51 +45,6 @@ p  {
   letter-spacing: 0.04rem;
 }
 
-
-/* Start styling navbar */
-
-.logo {
-  width: 50px;
-  padding-left: 20px;
-}
-
-.container-fluid {
-  padding: 25px 0px!important;
-}
-
-.navbar-custom {
-  background-color: transparent !important;
-  color: var(--dark-color) !important;
-  border-bottom: 2px solid rgba(255,255,255,.05);
-  height: 7.5rem;
-  transition: all 0.5s ease;
-}
-
-.nav-item {
-  font-size: 22px;
-  letter-spacing: 0.1em;
-  margin: 15px 0 0 60px;
-  text-transform: uppercase;
-  font-family: "Bolkit-Rayek";
-  color: var(--dark-color) !important;
-  transition: transform 1000ms ease;
-}
-
-.nav-item:hover {
-  transform: scaleY(-1);
-  }
-
-
-.active {
-  color: var(--branding-color) !important;
-}
-
-.scrolling-active{
-  background-color: #bab5ad !important;
-  box-shadow: 0 3px 1rem rgba(0,0,0,.1);
-  height: 6rem;
-}
-/* End styling navbar */
 
 #badge-container {
   display: flex;
@@ -220,14 +177,6 @@ p  {
   padding-bottom: 30px;
 }
 
-.formation-section img {
-  filter: opacity(0.5) grayscale(100%);
-}
-
-.formation-section img:hover {
-  transition: 0.2s ease-in-out;
-  filter: none;
-}
 
 /*Start styles skills list*/
 

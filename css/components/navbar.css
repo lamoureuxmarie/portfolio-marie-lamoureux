@@ -1,0 +1,46 @@
+/* Start styling navbar */
+
+.logo {
+  max-width: 50px;
+  padding-left: 20px;
+}
+
+.container-fluid {
+  padding: 25px 0px!important;
+}
+
+.navbar-custom {
+  background-color: transparent !important;
+  color: var(--dark-color) !important;
+  border-bottom: 2px solid rgba(255,255,255,.05);
+  height: 7.5rem;
+  transition: all 0.5s ease;
+}
+
+.nav-item {
+  font-size: 22px;
+  letter-spacing: 0.1em;
+  margin: 15px 0 0 60px;
+  text-transform: uppercase;
+  font-family: "Bolkit-Rayek";
+  color: var(--dark-color) !important;
+  transition: transform 1000ms ease;
+}
+
+
+.active {
+  color: var(--branding-color) !important;
+}
+
+.scrolling-active{
+  background-color: #bab5ad !important;
+  box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+  height: 6rem;
+}
+/* End styling navbar */
+
+@media screen and (max-width: 768px){
+  .navbar-custom {
+    height: 6.5rem;
+  }
+}
