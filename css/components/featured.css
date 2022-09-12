@@ -7,3 +7,9 @@
 .featured-link {
   border-radius: 5px;
 }
+
+@media screen and (max-width: 768px){
+  .featured-project {
+    width: 92%;
+  }
+}

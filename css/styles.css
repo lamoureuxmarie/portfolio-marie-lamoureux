@@ -152,7 +152,7 @@ p  {
 }
 
 .flex-container strong {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .flex-container .item {
@@ -213,10 +213,10 @@ p  {
 /*Start buttons*/
 
 .button-no-bg {
-    font-family: Helvetica, sans-serif;
-    font-weight: 700;
-    padding: 25px;
-    color: var(--branding-color);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  padding: 25px;
+  color: var(--branding-color);
 }
 
 .button-no-bg:hover {

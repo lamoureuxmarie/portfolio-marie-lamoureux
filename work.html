@@ -1,85 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Marie Lamoureux is a Junior Front-End developer and designer, based in Berlin. Available for freelance work - get in touch by email!">
+
+    <meta name="description" content="Marie Lamoureux is a french Front-End developer and designer, based in Berlin. Available for work, get in touch now!">
+    <meta property="og:image" content="https://picsum.photos/seed/picsum/200/300" />
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ffc6706a2d.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/MyFontsWebfontsKit/MyFontsWebfontsKit.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/work.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
-    <title>Marie Lamoureux - My Work</title>
+
+    <title>Front-end developer - Marie Lamoureux</title>
+
 </head>
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm navbar-custom">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/"><img src="images/logo-marie.png" class="logo" alt="logo marie lamoureux"></a>
+    <a class="navbar-brand" href="/"><img src="images/dot.png" class="logo" alt="navbar logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="/" title="Homepage">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="/" title="Homepage">Home</a>
       <a class="nav-item nav-link" href="/index.html#about" title="About me">About</a>
-      <a class="nav-item nav-link" href="/index.html#work" title="My work">Work</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          My Work
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/" title="My work">Projects</a>
+          <a class="dropdown-item" href="/experience.html">Experience</a>
+        </div>
+      </li>
       <a class="nav-item nav-link" href="mailto:lamoureuxmarie@outlook.com" title="Contact me">Contact</a>
     </div>
   </div>
   </div>
 </nav>
 
-<div class="work-header">
-  <h3 class="section-title work-section-title">My work</h3>
-</div>
-
-<div class="work-section" id="work">
-  <!--<div class="section-title-container">
-      <h3 class="section-title">My work</h3>
-  </div>
-  <h3 class="section-subtitle">Web development</h3>-->
-  <div class="flex-container">
-    <div class="col">
-      <a href="https://www.shecodes.io/workshops/shecodes-online-workshop-26-0/projects/70733" target="_blank" class= "item mt-2"><img class="item" src="images/plants-app.png" alt="plants-app" /> </a>
-      <p class="item"><strong>Plants App</strong><br />A landing page I've created during my Workshop with SheCodes</p>
-  </div>
-
-  <div class="col">
-      <a href="https://sharp-cori-10701d.netlify.app/" target="_blank" class= "item mt-2"><img class="item" src="images/vanilla-weather-app.png" alt="weather-app" /></a>
-      <p class="item"><strong>Vanilla Weather App</strong><br />A weather app I've created using<br />HTML, CSS and Javascript</p>
-  </div>
-  </div>
-
-  <div class="flex-container">
-    <div class="col">
-    <a href="https://lamoureux-react-weather-app.netlify.app" target="_blank" class= "item mt-2"><img class="item" src="images/react-weather-app.png" alt="react-weather-app" /></a>
-    <p class="item"><strong>React Weather App</strong><br />A weather app I've created using React<br />with a light and dark theme<br /></p>
-    </div>
-
-    <div class="col">
-    <a href="https://lamoureux-dictionary-app.netlify.app/" target="_blank" class= "item mt-2"><img class="item" src="images/dico-app.png" alt="dictionary-app" /></a>
-    <p class="item"><strong>Dictionary App</strong><br />A dictionary app I've created using React<br />during my coding course with SheCodes<br /></p>
-    </div>
-  </div>
-
-  <!--<h3 class="section-subtitle">Graphic design, illustration</h3>
+<div class="work-section pt-5" id="work">
+  <div class="container">
     <div class="flex-container">
       <div class="col">
-            <a href="/" target="_blank" class= "item mt-2"><img class="item" src="images/cartes-fslv.jpg" alt="Logo Flosurlavague" /> </a>
-            <p class="item"><strong>Logo design</strong><br />Logo I've created for photographer Flo Grard. I'm currently working on designing and coding her new website !</p>
+        <a href="https://www.shecodes.io/workshops/shecodes-online-workshop-26-0/projects/70733" target="_blank" class= "item mt-2"><img class="item" src="images/work/plants-app.png" alt="plants-app" /> </a>
+        <p class="item"><strong>Plants App</strong><br />A landing page I've created during my Workshop with SheCodes</p>
       </div>
 
       <div class="col">
-            <a href="/" target="_blank" class= "item mt-2"><img class="item" src="images/logo-les-mousseux.png" alt="weather-app" /></a>
-            <p class="item"><strong>Logo design</strong><br />Les mousseux is a group of friends who love to surf and drink beers together. They wanted a logo to print on t-shirts.</p>
+        <a href="https://www.my-kita.xyz/" target="_blank" class= "item mt-2"><img class="item" src="images/work/my-kita-square.jpg" alt="My Kita App" /> </a>
+        <p class="item"><strong>My Kita App</strong><br />A search tool and task manager built for parents in Berlin, using Ruby on Rails</p>
       </div>
-    </div>-->
+
+      <!-- <div class="col">
+        <a href="https://sharp-cori-10701d.netlify.app/" target="_blank" class= "item mt-2"><img class="item" src="#" alt="weather-app" /></a>
+        <p class="item"><strong>Vanilla Weather App</strong><br />A weather app I've created using<br />HTML, CSS and Javascript</p>
+      </div> -->
+    </div>
+
+    <div class="flex-container">
+      <!-- <div class="col">
+        <a href="https://lamoureux-react-weather-app.netlify.app" target="_blank" class= "item mt-2"><img class="item" src="images/react-weather-app.png" alt="react-weather-app" /></a>
+        <p class="item"><strong>React Weather App</strong><br />A weather app I've created using React<br />with a light and dark theme<br /></p>
+      </div> -->
+
+      <div class="col">
+        <a href="https://lamoureux-dictionary-app.netlify.app/" target="_blank" class= "item mt-2"><img class="item" src="images/work/dico-app.png" alt="dictionary-app" /></a>
+        <p class="item"><strong>Dictionary App</strong><br />A dictionary app I've created using React<br />during my coding course with SheCodes<br /></p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <script>
