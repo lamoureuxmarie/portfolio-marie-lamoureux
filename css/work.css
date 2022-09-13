@@ -1,37 +1,40 @@
 .work-header {
-    background-image: url(/images/background/bruno-emmanuelle-4pxBik5ewx0-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 120px;
-    height: 800px;
+  background-image: url(/images/background/bruno-emmanuelle-4pxBik5ewx0-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 120px;
+  height: 800px;
 }
 
 .work-section-title {
-    top: 180px !important;
+  top: 180px !important;
 }
 
-.projects .row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.projects {
+  padding: 70px;
 }
 
 .projects img {
-    max-width: 400px !important;
-    border-radius: 4px;
+  width: 100%;
+  border-radius: 4px;
 }
 
-@media screen and (max-width: 1000px){
+.projects strong {
+  font-family: 'Open Sans', sans-serif;
+}
 
+.projects .item {
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+}
 
-    .projects .row {
-       flex-direction: column !important;
-       text-align: center;
-    }
+.projects .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .flex-container img, .flex-container a {
-        margin: 20px auto;
-    }
-
-
- }
+.projects img {
+  border-radius: 4px;
+}

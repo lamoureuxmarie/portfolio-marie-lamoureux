@@ -2,6 +2,7 @@
 @import url(./components/header.css);
 @import url(./components/navbar.css);
 @import url(./experience.css);
+@import url(./work.css);
 
 :root {
     --branding-color: #FF3300;
@@ -137,28 +138,6 @@ p  {
 .filter:hover {
   transition: 0.2s ease-in-out;
   filter: none;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 70px;
-}
-
-.flex-container img {
-  width: 100%;
-  border-radius: 4px;
-}
-
-.flex-container strong {
-  font-family: 'Open Sans', sans-serif;
-}
-
-.flex-container .item {
-  text-align: center;
-  display: block;
-  margin: 20px auto;
 }
 
 
@@ -319,7 +298,7 @@ p  {
 }
 
 
-@media screen and (max-width: 809px){
+/* @media screen and (max-width: 809px){
 
 
     .flex-container {
@@ -330,4 +309,4 @@ p  {
         margin: 20px auto;
     }
 
- }
+ } */
